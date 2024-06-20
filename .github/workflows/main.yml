@@ -1,4 +1,4 @@
-name: Build Docker Image and Push to Evolution Artifact Registry
+name: CICD
 
 on:
   push:
