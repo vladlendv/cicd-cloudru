@@ -28,6 +28,6 @@ jobs:
         uses: docker/build-push-action@v5
         with:
           push: true
-          tags: latest
+          tags: ${{ env.CR_URI }}/evo-restapinodejs:${{ github.sha }}
           file: ./Dockerfile
           context: ./
