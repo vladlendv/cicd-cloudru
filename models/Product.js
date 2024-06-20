@@ -19,6 +19,11 @@ const products = [
     title: "Evolution API Gateway",
     category: "Разработчики",
   },
+  {
+    id: 5,
+    title: "!!!",
+    category: "Оно работает :D",
+  },
 ];
 
 const getProducts = async function () {
