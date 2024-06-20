@@ -21,8 +21,8 @@ jobs:
         uses: docker/login-action@v1
         with:
           registry: ${{ env.CR_URI }}
-          username: ${{ secrets.cloudru.CLOUDRU_ID_LOGIN }}
-          password: ${{ secrets.cloudru.KEY_SECRET_PASS }}
+          username: ${{ secrets.CLOUDRU_ID_LOGIN }}
+          password: ${{ secrets.KEY_SECRET_PASS }}
 
       - name: .NET - Build and push docker image to Evolution Aritfact Registry
         uses: docker/build-push-action@v5
