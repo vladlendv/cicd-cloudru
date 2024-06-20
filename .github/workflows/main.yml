@@ -29,5 +29,5 @@ jobs:
         with:
           push: true
           tags: ${{ env.CR_URI }}/evo-restapinodejs:${{ github.sha }}
-          file: ../Dockerfile
-          context: ../cicd-cloudru
+          file: ../../Dockerfile
+          context: ../../cicd-cloudru
